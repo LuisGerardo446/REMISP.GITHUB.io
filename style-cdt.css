@@ -1,0 +1,187 @@
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+
+header {
+    background: url(imagenes/Fondo5.jpg);
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 135px;
+    right: 70px;
+}
+
+#logo {
+    width: 20%;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: 5px;
+    left: 80px;
+
+}
+
+nav li {
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+nav a:active {
+    color: aquamarine;
+}
+
+.caja1 {
+    display: inline-flex;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    position: relative;
+    right: 2%;
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*Agregando el borde de color negro*/
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+.productos li:hover {
+    border-color: blueviolet; 
+}
+
+.productos li:active {
+    border-color: aquamarine;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+     font-size: 33px;
+}
+
+#cross {
+    width: 59%;
+    position: relative;
+    margin-top: 10px;
+}
+
+#deportiva {
+    width: 70%;
+    position: relative;
+    margin-top: 10px;
+}
+
+#trabajo {
+    width: 58%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.principal {
+    position: absolute;
+    right: 40%;
+    bottom: -5%;
+
+}
+
+.titulo-principal {
+    display: flex;
+    position: relative;
+    right: 10%;
+    left: 40%;
+    bottom: 10%;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.subtitle {
+    position: relative;
+    left: 40%;
+    width: 640px;
+    font-size: 1em;
+    margin: 20px auto;
+    font-weight:100;
+}
+
+.diferenciales {
+    padding: 3em;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 10px auto;
+}
+
+.lista-diferenciales {
+    position: relative;
+    left: 40%;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.8;
+}
+
+.items::before {
+    content: "⚙️";
+}
+
+
+footer {
+    text-align: center;
+    background: url(imagenes/Fondo5.jpg);
+    padding: 40px;
+}
+
+#logo2 {
+    width: 15%;
+}
+
+.copyright {
+   color: antiquewhite;
+    font-size: 16px;
+    margin: 20px;
+}

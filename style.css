@@ -1,0 +1,319 @@
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+header {
+    background: url(imagenes/Fondo5.jpg);
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 135px;
+    right: 70px;
+}
+
+/*Se utiliza # cuando definimos la variable como "id"*/
+#logo {
+    width: 20%;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: 5%;
+    left: 80px;
+    box-sizing: border-box;
+}
+    
+nav li {
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(236, 44, 179);
+}
+
+nav a:active {
+    color: aquamarine;
+}
+
+/* Se utiliza un "." cuando definimos una variable como "class"*/
+.productos {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*Agregando el borde de color negro*/
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+.productos li:hover {
+    border-color: blueviolet; 
+}
+
+.productos li:active {
+    border-color: aquamarine;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+     font-size: 33px;
+}
+
+#cross {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#deportiva {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#trabajo {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.producto-precio {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/Fondo5.jpg);
+    padding: 40px;
+}
+
+#logo2 {
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.copyright {
+   color: antiquewhite;
+    font-size: 16px;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+.frm {
+    margin: 40px 0;
+    position: relative;
+    left: 100px;
+    box-sizing: border-box;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 30px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.enviar:hover {
+    background: violet;
+    transform: scale(1.2);
+}
+
+table {
+    position: absolute;
+    top: 10px;
+    right: -15%;
+}
+
+thead {
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+table td, table th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/*CSS para nuestra pagina inicial*/
+
+.banner {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    background-color: #fefefe;
+    padding: 3em;
+    width: 94%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utencilios {
+    width: 20%;
+    float: left;
+    margin: 0 20px 20px 0;
+    box-sizing: border-box;
+}
+
+.mapa {
+    padding: 5px 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.diferenciales {
+    padding: 3em;
+}
+
+.contenido-diferenciales {
+    width: 64%;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.items {
+    line-height: 1.8;
+}
+
+.items::before {
+    content: "✅";
+}
+
+.imagen-diferenciales {
+    width: 53%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px #8a8a8a;
+    box-sizing: border-box;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.8;
+}
+
+.video {
+    width: 56%;
+    margin: 1em auto;
+    transition: 400ms;
+    box-sizing: border-box;
+}
+
+.video:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+    text-align: left;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .caja, .principal, .mapa, .contenido-diferenciales, .video {
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+
+
+

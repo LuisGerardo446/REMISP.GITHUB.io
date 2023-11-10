@@ -1,0 +1,54 @@
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+
+body {
+    font-size: 20px;
+}
+
+.titulo-principal {
+    padding-left: 30px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    text-align: center;
+    background: #d480df;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+strong {
+    color: #00faff;
+}
+
+.diferenciales {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items {
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 25px;
+
+}
+
+.moto {
+    width: 30%;
+}
